@@ -39,3 +39,17 @@ To verify that the topology is functioning as intended, perform the following te
 
 ## ⚠️ Known Issues / Limitations
 * [Document any bugs or incomplete configurations, e.g., "PC-3 currently cannot reach the web server due to an unresolved ACL dropping port 80 traffic."]
+
+## 🏗️ Topology Architecture
+
+Below is the visual documentation of the network design implemented in Cisco Packet Tracer.
+
+### 1. Main Enterprise Topology
+This image provides a high-level overview of the entire network infrastructure. It illustrates the core routing backbone and how the distinct sites—such as the main headquarters, server farm, and remote branches—are interconnected to facilitate enterprise-wide communication.
+
+![Main Enterprise Topology](images_EIGRP,RRV2,OSPF.png)
+
+### 2. Detailed Branch/Department View
+This image offers a zoomed-in, detailed view of a specific local area network (LAN) segment. It highlights the distribution and access layers, showcasing the connectivity for various end devices including workstations, IP phones (VoIP), and a wireless access point handling mobile traffic.
+
+![Detailed Branch/Department View](image_Topology.png)

@@ -45,11 +45,11 @@ To verify that the topology is functioning as intended, perform the following te
 Below is the visual documentation of the network design implemented in Cisco Packet Tracer.
 
 ### 1. Main Enterprise Topology
-This image provides a high-level overview of the entire network infrastructure. It illustrates the core routing backbone and how the distinct sites—such as the main headquarters, server farm, and remote branches—are interconnected to facilitate enterprise-wide communication.
+This image provides a high-level overview of the entire network infrastructure, illustrating the core routing backbone.
 
-![Main Enterprise Topology](images_EIGRP,RRV2,OSPF.png)
+![Main Enterprise Topology](images/Topology.jpg)
 
-### 2. Detailed Branch/Department View
-This image offers a zoomed-in, detailed view of a specific local area network (LAN) segment. It highlights the distribution and access layers, showcasing the connectivity for various end devices including workstations, IP phones (VoIP), and a wireless access point handling mobile traffic.
+### 2. Routing Protocols Overview
+This detailed view highlights the specific routing protocol boundaries and configurations across the network segments.
 
-![Detailed Branch/Department View](image_Topology.png)
+![Routing Protocols View](images/EIGRP,RRV2,OSPF.png)
